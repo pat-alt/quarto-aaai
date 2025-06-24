@@ -1,0 +1,101 @@
+---
+title: | 
+    | AAAI Press Anonymous Submission
+    | Instructions for Authors Using {{< latex >}}
+abstract: |
+  AAAI creates proceedings, working notes, and technical reports directly from electronic source furnished by the authors. To ensure that all papers in the publication have a uniform appearance, authors must adhere to the following instructions.
+---
+
+## Preparing an Anonymous Submission
+
+This document details the formatting requirements for anonymous submissions. The requirements are the same as for camera ready papers but with a few notable differences:
+
+- The PDF document's metadata should be cleared with a metadata-cleaning tool before submitting it. This is to prevent leaked information from revealing your identity.
+- References must be anonymized whenever the reader can infer that they are to the authors' previous work.
+- AAAI's copyright notice should not be included as a footer in the first page.
+- Only the PDF version is required at this stage. No source versions will be requested, nor any copyright transfer form.
+
+You can remove the copyright notice and ensure that your names aren't shown by including `submission` option when loading the `aaai2026` package:
+
+```tex
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2026}
+```
+
+The remainder of this document are the original camera-ready instructions. Any contradiction of the above points ought to be ignored while preparing anonymous submissions.
+
+## Camera-Ready Guidelines
+
+Congratulations on having a paper selected for inclusion in an AAAI Press proceedings or technical report! This document details the requirements necessary to get your accepted paper published using PDF{{< latex >}}. If you are using Microsoft Word, instructions are provided in a different document. AAAI Press does not support any other formatting software.
+
+The instructions herein are provided as a general guide for experienced {{< latex >}} users. If you do not know how to use {{< latex >}}, please obtain assistance locally. AAAI cannot provide you with support and the accompanying style files are **not** guaranteed to work. If the results you obtain are not in accordance with the specifications you received, you must correct your source file to achieve the correct result.
+
+These instructions are generic. Consequently, they do not include specific dates, page charges, and so forth. Please consult your specific written conference instructions for details regarding your submission. Please review the entire document for specific instructions that might apply to your particular situation. All authors must comply with the following:
+
+
+- You must use the 2026 AAAI Press {{< latex >}} style file and the aaai2026.bst bibliography style files, which are located in the 2026 AAAI Author Kit (aaai2026.sty, aaai2026.bst).
+- You must complete, sign, and return by the deadline the AAAI copyright form (unless directed by AAAI Press to use the AAAI Distribution License instead).
+- You must read and format your paper source and PDF according to the formatting instructions for authors.
+- You must submit your electronic files and abstract using our electronic submission form **on time.**
+- You must pay any required page or formatting charges to AAAI Press so that they are received by the deadline.
+- You must check your paper before submitting it, ensuring that it compiles without error, and complies with the guidelines found in the AAAI Author Kit.
+
+## Copyright
+
+All papers submitted for publication by AAAI Press must be accompanied by a valid signed copyright form. They must also contain the AAAI copyright notice at the bottom of the first page of the paper. There are no exceptions to these requirements. If you fail to provide us with a signed copyright form or disable the copyright notice, we will be unable to publish your paper. There are **no exceptions** to this policy. You will find a PDF version of the AAAI copyright form in the AAAI AuthorKit. Please see the specific instructions for your conference for submission details.
+
+## Formatting Requirements in Brief
+
+We need source and PDF files that can be used in a variety of ways and can be output on a variety of devices. The design and appearance of the paper is strictly governed by the aaai style file (aaai2026.sty).
+**You must not make any changes to the aaai style file, nor use any commands, packages, style files, or macros within your own paper that alter that design, including, but not limited to spacing, floats, margins, fonts, font size, and appearance.** AAAI imposes requirements on your source and PDF files that must be followed. Most of these requirements are based on our efforts to standardize conference manuscript properties and layout. All papers submitted to AAAI for publication will be recompiled for standardization purposes. Consequently, every paper submission must comply with the following requirements:
+
+- Your .tex file must compile in PDF{{< latex >}} --- (you may not include .ps or .eps figure files.)
+- All fonts must be embedded in the PDF file --- including your figures.
+- Modifications to the style file, whether directly or via commands in your document may not ever be made, most especially when made in an effort to avoid extra page charges or make your paper fit in a specific number of pages.
+- No type 3 fonts may be used (even in illustrations).
+- You may not alter the spacing above and below captions, figures, headings, and subheadings.
+- You may not alter the font sizes of text elements, footnotes, heading elements, captions, or title information (for references and mathematics, please see the limited exceptions provided herein).
+- You may not alter the line spacing of text.
+- Your title must follow Title Case capitalization rules (not sentence case).
+- {{< latex >}} documents must use the Times or Nimbus font package (you may not use Computer Modern for the text of your paper).
+- No {{< latex >}} 209 documents may be used or submitted.
+- Your source must not require use of fonts for non-Roman alphabets within the text itself. If your paper includes symbols in other languages (such as, but not limited to, Arabic, Chinese, Hebrew, Japanese, Thai, Russian and other Cyrillic languages), you must restrict their use to bit-mapped figures. Fonts that require non-English language support (CID and Identity-H) must be converted to outlines or 300 dpi bitmap or removed from the document (even if they are in a graphics file embedded in the document).
+- Two-column format in AAAI style is required for all papers.
+- The paper size for final submission must be US letter without exception.
+- The source file must exactly match the PDF.
+- The document margins may not be exceeded (no overfull boxes).
+- The number of pages and the file size must be as specified for your event.
+- No document may be password protected.
+- Neither the PDFs nor the source may contain any embedded links or bookmarks (no hyperref or navigator packages).
+- Your source and PDF must not have any page numbers, footers, or headers (no pagestyle commands).
+- Your PDF must be compatible with Acrobat 5 or higher.
+- Your {{< latex >}} source file (excluding references) must consist of a **single** file (use of the ``input" command is not allowed.
+- Your graphics must be sized appropriately outside of {{< latex >}} (do not use the ``clip" or ``trim'' command) .
+
+If you do not follow these requirements, your paper will be returned to you to correct the deficiencies.
+
+## What Files to Submit
+
+You must submit the following items to ensure that your paper is published:
+
+- A fully-compliant PDF file.
+- Your {{< latex >}} source file submitted as a **single** .tex file (do not use the ``input" command to include sections of your paper --- every section must be in the single source file). (The only allowable exception is .bib file, which should be included separately).
+- The bibliography (.bib) file(s).
+- Your source must compile on our system, which includes only standard {{< latex >}} 2020 TeXLive support files.
+- Only the graphics files used in compiling paper.
+- The {{< latex >}}-generated files (e.g. .aux,  .bbl file, PDF, etc.).
+
+Your {{< latex >}} source will be reviewed and recompiled on our system (if it does not compile, your paper will be returned to you. **Do not submit your source in multiple text files.** Your single {{< latex >}} source file must include all your text, your bibliography (formatted using aaai2026.bst), and any custom macros.
+
+Your files should work without any supporting files (other than the program itself) on any computer with a standard {{< latex >}} distribution.
+
+**Do not send files that are not actually used in the paper.** Avoid including any files not needed for compiling your paper, including, for example, this instructions file, unused graphics files, style files, additional material sent for the purpose of the paper review, intermediate build files and so forth.
+
+**Obsolete style files.** The commands for some common packages (such as some used for algorithms), may have changed. Please be certain that you are not compiling your paper using old or obsolete style files.
+
+**Final Archive.** Place your source files in a single archive which should be compressed using .zip. The final file size may not exceed 10 MB.
+Name your source file with the last (family) name of the first author, even if that is not you.
+
+## Using {{< latex >}} to Format Your Paper
+
+The latest version of the AAAI style file is available on AAAI's website. Download this file and place it in the \TeX\ search path. Placing it in the same directory as the paper should also work. You must download the latest version of the complete AAAI Author Kit so that you will have the latest instruction set and style file.
