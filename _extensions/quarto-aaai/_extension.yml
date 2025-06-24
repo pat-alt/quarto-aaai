@@ -8,8 +8,17 @@ contributes:
       toc: true
       filters:
         - quarto-aaai.lua
+      shortcodes:
+        - quarto-ext/fancy-text
     pdf:
+      toc: false
       include-in-header: header.tex
+      template-partials:
+        - partials/doc-class.tex
+      format-resources:
+        - aaai2026.sty
+        - aaai2026.bst
+      hyperrefoptions: draft
     html:
       css: styles.css
 
