@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.28)  25 JUN 2025 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.28)  25 JUN 2025 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,7 +162,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box56
 )
-No file paper.aux.
+(./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -179,6 +179,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
+
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
@@ -260,13 +261,6 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 369.
-
-
-LaTeX Warning: Reference `table1' on page 3 undefined on input line 419.
-
-
-LaTeX Warning: Reference `table2' on page 3 undefined on input line 419.
-
 
 
 [3]
@@ -362,12 +356,6 @@ File: figure2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure2.pdf  used on input line 773.
 (pdftex.def)             Requested size: 404.71353pt x 127.96867pt.
 
-LaTeX Warning: Reference `fig1' on page 6 undefined on input line 801.
-
-
-LaTeX Warning: Reference `fig2' on page 6 undefined on input line 802.
-
-
 
 [6 <./figure1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 847--856
@@ -384,11 +372,6 @@ Underfull \hbox (badness 5403) in paragraph at lines 847--856
 
 
 [7 <./figure2.pdf>]
-
-LaTeX Warning: Reference `alg:algorithm' on page 8 undefined on input line 920.
-
-
-
 Underfull \hbox (badness 1158) in paragraph at lines 916--923
 \OT1/ptm/m/n/10 floated to the top (prefer-ably) or bot-tom of the page.
  []
@@ -403,9 +386,6 @@ Underfull \hbox (badness 4024) in paragraph at lines 924--927
 \OT1/pcr/m/n/10 algorithm \OT1/ptm/m/n/10 and \OT1/pcr/m/n/10 algorithmic \OT1/
 ptm/m/n/10 pack-ages, but you
  []
-
-
-LaTeX Warning: Reference `lst:listing' on page 8 undefined on input line 953.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
@@ -538,19 +518,12 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) ) 
 Here is how much of TeX's memory you used:
- 6158 strings out of 473207
- 97160 string characters out of 5716282
- 705020 words of memory out of 5000000
- 29342 multiletter control sequences out of 15000+600000
+ 6162 strings out of 473207
+ 97219 string characters out of 5716282
+ 705213 words of memory out of 5000000
+ 29344 multiletter control sequences out of 15000+600000
  583747 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,463b,1839s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -563,7 +536,7 @@ l/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (10 pages, 1492162 bytes).
+Output written on paper.pdf (10 pages, 1491602 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream
