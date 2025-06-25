@@ -6,4 +6,3 @@ contributes:
   formats:
     latex:
       template: template.tex
-      cite-method: natbib
