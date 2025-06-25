@@ -2,9 +2,8 @@
 \@ifpackageloaded{hyperref}{}{%
   \newcommand{\texorpdfstring}[2]{#1}%
 }
+\newcommand{\tightlist}
 \makeatother
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -795,7 +794,7 @@ valid.
 
 When you include your figures, you must crop them \textbf{outside} of
 \LaTeX{}. The command \textbackslash includegraphics*{[}clip=true,
-viewport 0 0 10 10{]}\{\ldots\} might result in a PDF that looks great,
+viewport 0 0 10 10{]}{[}{} {]} might result in a PDF that looks great,
 but the image is \textbf{not really cropped.} The full image can
 reappear (and obscure whatever it is overlapping) when page numbers are
 applied or color space is standardized. Figures \ref{fig1}, and
