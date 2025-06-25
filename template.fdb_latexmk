@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1750871150.73146 "template.aux" "template.bbl" "template" 1750871152.87383 0
+["bibtex template"] 1750873620.80189 "template.aux" "template.bbl" "template" 1750873622.99017 0
   "./aaai2026.bst" 1750871010.469 30207 6eaa2a4f2eed92c930f9e98d689c010a ""
   "./bibliography.bib" 1750835431.42323 247 3879482b7148d489b4b2989e6c9257cd ""
-  "template.aux" 1750871152.56963 630 505e3c29ae7d5a7440f5b3bab3a27c52 "pdflatex"
+  "template.aux" 1750873622.68493 630 505e3c29ae7d5a7440f5b3bab3a27c52 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1750871151.99397 "template.tex" "template.pdf" "template" 1750871152.87405 0
+["pdflatex"] 1750873622.1104 "template.tex" "template.pdf" "template" 1750873622.99035 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -42,6 +42,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithm.sty" 1251330371 3249 15763257e50278eef5db1952ccde229c ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/algorithms/algorithmic.sty" 1251330371 9318 793e9d5a71e74e730d97f6bf5d7e2bca ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty" 1591045760 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1717359999 2222 2166a1f7827be30ddc30434e5efcee1b ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty" 1717359999 4173 d22509bc0c91281d991b2de7c88720dd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty" 1730928152 88370 c780f23aea0ece6add91e09b44dca2cd ""
@@ -89,9 +90,9 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "aaai/figure1.pdf" 1750835431.40928 252557 297243519fee86cc2def011603be6146 ""
   "aaai2026.sty" 1750871010.47 11802 ebafcca046fa76cd12a651daf05aa669 ""
-  "template.aux" 1750871152.56963 630 505e3c29ae7d5a7440f5b3bab3a27c52 "pdflatex"
-  "template.bbl" 1750871151.87227 298 f47d9639bae444d8ae967bac66bfb12e "bibtex template"
-  "template.tex" 1750871147.24435 10019 ea681f889ca517ae9e6bffcbdfd3d38b ""
+  "template.aux" 1750873622.68493 630 505e3c29ae7d5a7440f5b3bab3a27c52 "pdflatex"
+  "template.bbl" 1750873621.98319 298 f47d9639bae444d8ae967bac66bfb12e "bibtex template"
+  "template.tex" 1750873617.38317 10111 6f02d111bdafd5515319f650df8917e4 ""
   (generated)
   "template.aux"
   "template.log"
