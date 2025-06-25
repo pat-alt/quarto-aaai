@@ -1,6 +1,6 @@
 project:
-  title: "Quarto - `barebones`"
+  title: "Quarto - AAAI"
 format:
-  quarto-barebones-pdf: 
+  quarto-aaai-pdf: 
     keep-tex: true
 bibliography: bibliography.bib  
