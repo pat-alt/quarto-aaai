@@ -1,3 +1,6 @@
 ## Quarto - `aaai`
 
-The `quarto-aaai` enables users to generate bare-bones {{< latex >}} output, that can be used as input to conventional {{< latex >}} journal templates. This can be useful when a full journal extension is difficult to create.
+The `quarto-aaai` extension leverages the official {{< latex >}} template for AAAI to create journal articles that are compatible with AAAI proceedings.
+
+> [!WARNING]
+> This extension is not officially endorsed by the organizers of AAAI, so use with care at your own risk.
