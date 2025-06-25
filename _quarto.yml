@@ -1,0 +1,5 @@
+project:
+  title: "Quarto - `barebones`"
+format:
+  quarto-barebones-latex: default
+bibliography: bibliography.bib  

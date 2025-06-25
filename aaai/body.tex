@@ -1,3 +1,10 @@
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+  \newcommand{\texorpdfstring}[2]{#1}%
+}
+\makeatother
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -6,7 +13,7 @@ from electronic source furnished by the authors. To ensure that all
 papers in the publication have a uniform appearance, authors must adhere
 to the following instructions.
 \end{abstract}
-\subsection{Preparing an Anonymous
+\section{Preparing an Anonymous
 Submission}\label{preparing-an-anonymous-submission}
 
 This document details the formatting requirements for anonymous
@@ -15,6 +22,10 @@ but with a few notable differences:
 
 \begin{itemize}
 \tightlist
+\item
+  Anonymous submissions must not include the author names and
+  affiliations. Write ``Anonymous Submission'' as the ``sole author''
+  and leave the affiliations empty.
 \item
   The PDF document's metadata should be cleared with a metadata-cleaning
   tool before submitting it. This is to prevent leaked information from
@@ -34,18 +45,16 @@ You can remove the copyright notice and ensure that your names aren't
 shown by including \texttt{submission} option when loading the
 \texttt{aaai2026} package:
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\BuiltInTok{\textbackslash{}documentclass}\NormalTok{[letterpaper]\{}\ExtensionTok{article}\NormalTok{\}}
-\BuiltInTok{\textbackslash{}usepackage}\NormalTok{[submission]\{}\ExtensionTok{aaai2026}\NormalTok{\}}
-\end{Highlighting}
-\end{Shaded}
+\begin{quote}\begin{scriptsize}\begin{verbatim}
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2026}
+\end{verbatim}\end{scriptsize}\end{quote}
 
 The remainder of this document are the original camera-ready
 instructions. Any contradiction of the above points ought to be ignored
 while preparing anonymous submissions.
 
-\subsection{Camera-Ready Guidelines}\label{camera-ready-guidelines}
+\section{Camera-Ready Guidelines}\label{camera-ready-guidelines}
 
 Congratulations on having a paper selected for inclusion in an AAAI
 Press proceedings or technical report! This document details the
@@ -94,7 +103,7 @@ following:
   AAAI Author Kit.
 \end{itemize}
 
-\subsection{Copyright}\label{copyright}
+\section{Copyright}\label{copyright}
 
 All papers submitted for publication by AAAI Press must be accompanied
 by a valid signed copyright form. They must also contain the AAAI
@@ -106,7 +115,7 @@ You will find a PDF version of the AAAI copyright form in the AAAI
 AuthorKit. Please see the specific instructions for your conference for
 submission details.
 
-\subsection{Formatting Requirements in
+\section{Formatting Requirements in
 Brief}\label{formatting-requirements-in-brief}
 
 We need source and PDF files that can be used in a variety of ways and
@@ -196,7 +205,7 @@ requirements:
 If you do not follow these requirements, your paper will be returned to
 you to correct the deficiencies.
 
-\subsection{What Files to Submit}\label{what-files-to-submit}
+\section{What Files to Submit}\label{what-files-to-submit}
 
 You must submit the following items to ensure that your paper is
 published:
@@ -245,7 +254,7 @@ which should be compressed using .zip. The final file size may not
 exceed 10 MB. Name your source file with the last (family) name of the
 first author, even if that is not you.
 
-\subsection{\texorpdfstring{Using {\LaTeX} to Format Your
+\section{\texorpdfstring{Using {\LaTeX} to Format Your
 Paper}{Using  to Format Your Paper}}\label{using-to-format-your-paper}
 
 The latest version of the AAAI style file is available on AAAI's
