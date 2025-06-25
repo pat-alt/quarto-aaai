@@ -1,7 +1,48 @@
+---
+title: "Quarto AAAI"
+subtitle: "Journal Extension"
+abstract: |
+  This template introduces the Quarto journal extension for AAAI proceedings papers.
+bibliography: bibliography.bib 
+---
+
 # Introduction 
 
 The `quarto-barebones` enables users to generate bare-bones {{< latex >}} output, that can be used as input to conventional {{< latex >}} journal templates. This can be useful when a full journal extension is difficult to create.
 
+# Lists
+
+You can use basic markdown syntax to create lists like the one below:
+
+* unordered list
+  + sub-item 1
+  + sub-item 2
+    - sub-sub-item 1
+
+# Figures
+
+@fig-test is a figure.
+
+![Test figure.](aaai/figure1.pdf){#fig-test}
+
+# Equations
+
+@eq-div is an equation.
+
+$$
+\text{div}(\mathbf{x}^+,\mathbf{x}_T^\prime,y;\theta) = \mathcal{E}_\theta(\mathbf{x}^+,y) - \mathcal{E}_\theta(\mathbf{x}_T^\prime,y)
+$$ {#eq-div}
+
+# Cross References {#sec-cross}
+
+See @sec-cross.
+
 # Citations
 
 @CameronTrivedi2013 is a citation.
+
+# References {-}
+
+::: {#refs}
+:::
+
