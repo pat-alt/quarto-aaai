@@ -62,9 +62,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/natbib/bibentry.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/natbib/bibentry.sty
-INPUT ./body.tex
-INPUT ./body.tex
-INPUT body.tex
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd

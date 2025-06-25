@@ -4,6 +4,7 @@ title: |
     | Instructions for Authors Using {{< latex >}}
 abstract: |
   AAAI creates proceedings, working notes, and technical reports directly from electronic source furnished by the authors. To ensure that all papers in the publication have a uniform appearance, authors must adhere to the following instructions.
+bibliography: aaai2026.bib
 ---
 
 # Preparing an Anonymous Submission
@@ -630,4 +631,7 @@ The preparation of the \LaTeX{} and Bib\TeX{} files that implement these instruc
 \bigskip
 \noindent Thank you for reading these instructions carefully. We look forward to receiving your electronic files!
 
-\bibliography{aaai2026}
+# References {-}
+
+::: {#refs}
+:::
