@@ -3,7 +3,8 @@
   \newcommand{\texorpdfstring}[2]{#1}%
 }
 \makeatother
-\newcommand{\tightlist}[2]{#1}%
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
 \begin{document}
 \maketitle
 \begin{abstract}
